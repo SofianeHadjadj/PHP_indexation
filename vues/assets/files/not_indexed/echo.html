@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>commande:echo [LinuxPedia]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="theme-color" content="#008800"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="commande,echo"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="LinuxPedia"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/doku.php/commande/echo?do=index" title="Plan du site"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Derniers changements" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Catégorie courante" href="/feed.php?mode=list&amp;ns=commande"/>
+<link rel="alternate" type="text/html" title="HTML brut" href="/doku.php/commande/echo?do=export_xhtml"/>
+<link rel="alternate" type="text/plain" title="Wiki balise" href="/doku.php/commande/echo?do=export_raw"/>
+<link rel="canonical" href="https://www.linuxpedia.fr/doku.php/commande/echo"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=dokuwiki&amp;tseed=812f49b2e17e643f678f32276c001a46"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='commande';var JSINFO = {"id":"commande:echo","namespace":"commande","ACT":"show","useHeadingNavigation":0,"useHeadingContent":0};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/jquery.php?tseed=23f888679b4f1dc26eef34902aca964f"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=dokuwiki&amp;tseed=812f49b2e17e643f678f32276c001a46"></script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/dokuwiki/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/dokuwiki/images/apple-touch-icon.png" />
+    </head>
+
+<body>
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_dokuwiki    showSidebar hasSidebar">
+
+        
+<!-- ********** HEADER ********** -->
+<div id="dokuwiki__header"><div class="pad group">
+
+    
+    <div class="headings group">
+        <ul class="a11y skip">
+            <li><a href="#dokuwiki__content">Aller au contenu</a></li>
+        </ul>
+
+        <h1><a href="/doku.php/start"  accesskey="h" title="[H]"><img src="/lib/tpl/dokuwiki/images/logo.png" width="64" height="64" alt="" /> <span>LinuxPedia</span></a></h1>
+                    <p class="claim">Wiki libre et indépendant dédié à GNU-Linux et BSD.</p>
+            </div>
+
+    <div class="tools group">
+        <!-- USER TOOLS -->
+                    <div id="dokuwiki__usertools">
+                <h3 class="a11y">Outils pour utilisateurs</h3>
+                <ul>
+                    <li class="action register"><a href="/doku.php/commande/echo?do=register" title="Créer un compte" rel="nofollow"><span>Créer un compte</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 14c-2.67 0-8 1.33-8 4v2h16v-2c0-2.67-5.33-4-8-4m-9-4V7H4v3H1v2h3v3h2v-3h3v-2m6 2a4 4 0 0 0 4-4 4 4 0 0 0-4-4 4 4 0 0 0-4 4 4 4 0 0 0 4 4z"/></svg></a></li><li class="action login"><a href="/doku.php/commande/echo?do=login&amp;sectok=" title="S'identifier" rel="nofollow"><span>S&#039;identifier</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 17.25V14H3v-4h7V6.75L15.25 12 10 17.25M8 2h9a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-4h2v4h9V4H8v4H6V4a2 2 0 0 1 2-2z"/></svg></a></li>                </ul>
+            </div>
+        
+        <!-- SITE TOOLS -->
+        <div id="dokuwiki__sitetools">
+            <h3 class="a11y">Outils du site</h3>
+            <form action="/doku.php/start" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="commande:echo" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Rechercher" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="Rechercher">Rechercher</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>            <div class="mobileTools">
+                <form action="/doku.php" method="get" accept-charset="utf-8"><div class="no"><input type="hidden" name="id" value="commande:echo" /><select name="do" class="edit quickselect" title="Outils"><option value="">Outils</option><optgroup label="Outils de la page"><option value="edit">Afficher le texte source</option><option value="revisions">Anciennes révisions</option><option value="backlink">Liens de retour</option></optgroup><optgroup label="Outils du site"><option value="recent">Derniers changements</option><option value="media">Gestionnaire Multimédia</option><option value="index">Plan du site</option></optgroup><optgroup label="Outils pour utilisateurs"><option value="register">Créer un compte</option><option value="login">S&#039;identifier</option></optgroup></select><button type="submit">&gt;</button></div></form>            </div>
+            <ul>
+                <li class="action recent"><a href="/doku.php/commande/echo?do=recent" title="Derniers changements [r]" rel="nofollow" accesskey="r">Derniers changements</a></li><li class="action media"><a href="/doku.php/commande/echo?do=media&amp;ns=commande" title="Gestionnaire Multimédia" rel="nofollow">Gestionnaire Multimédia</a></li><li class="action index"><a href="/doku.php/commande/echo?do=index" title="Plan du site [x]" rel="nofollow" accesskey="x">Plan du site</a></li>            </ul>
+        </div>
+
+    </div>
+
+    <!-- BREADCRUMBS -->
+            <div class="breadcrumbs">
+                                        <div class="trace"><span class="bchead">Piste:</span> <span class="bcsep">•</span> <span class="curid"><bdi><a href="/doku.php/commande/echo"  class="breadcrumbs" title="commande:echo">echo</a></bdi></span></div>
+                    </div>
+    
+
+
+    <hr class="a11y" />
+</div></div><!-- /header -->
+
+        <div class="wrapper group">
+
+                            <!-- ********** ASIDE ********** -->
+                <div id="dokuwiki__aside"><div class="pad aside include group">
+                    <h3 class="toggle">Panneau latéral</h3>
+                    <div class="content"><div class="group">
+                                                                        
+<p>
+Gracieusement hébergé par<br/>
+
+<a href="http://www.nfrance.com/" class="media" title="http://www.nfrance.com/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-nfrance-185x55.jpg" class="media" title="nfrance conseil" alt="nfrance conseil" /></a>
+</p>
+
+<h1 class="sectionedit1" id="navigation">Navigation</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"><a href="/doku.php/wiki" class="wikilink1" title="wiki">Sommaire</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/debuter" class="wikilink1" title="debuter">Page débutant</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/expert" class="wikilink1" title="expert">Page expert</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/toutes_les_distributions" class="wikilink1" title="toutes_les_distributions">Toutes les distributions</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/wiki/syntaxe" class="wikilink1" title="wiki:syntaxe">Comment créer une page</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/wiki/inscriptions" class="wikilink1" title="wiki:inscriptions">Inscriptions</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Navigation&quot;,&quot;hid&quot;:&quot;navigation&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;113-356&quot;} -->
+<h1 class="sectionedit2" id="discussions">Discussions</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"> <a href="/doku.php/listes-de-diffusion" class="wikilink1" title="listes-de-diffusion">Listes de diffusion</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php/annonces" class="wikilink1" title="annonces">La vie du Wiki</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Discussions&quot;,&quot;hid&quot;:&quot;discussions&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;357-462&quot;} -->
+<h1 class="sectionedit3" id="ils_nous_font_confiance">Ils nous font confiance</h1>
+<div class="level1">
+
+<p>
+<a href="/doku.php/opensuse/opensuse" class="media" title="opensuse:opensuse"><img src="/lib/exe/fetch.php/sidbar/banner-opensuse-185x55.jpg" class="media" title="Alionet-OpenSuse" alt="Alionet-OpenSuse" /></a><br/>
+
+<a href="/doku.php/frugalware/frugalware" class="media" title="frugalware:frugalware"><img src="/lib/exe/fetch.php/sidbar/banner-frugalware-185x55.jpg" class="media" title="FrugalWare" alt="FrugalWare" /></a><br/>
+
+<a href="/doku.php/nutyx/nutyx" class="media" title="nutyx:nutyx"><img src="/lib/exe/fetch.php/sidbar/banner-nutyx-185x55.jpg" class="media" title="Nutyx" alt="Nutyx" /></a><br/>
+
+<a href="/doku.php/salix/salix" class="media" title="salix:salix"><img src="/lib/exe/fetch.php/sidbar/banner-salix-185x55.jpg" class="media" title="SalixOS" alt="SalixOS" /></a><br/>
+
+<a href="/doku.php/zenwalk/zenwalk" class="media" title="zenwalk:zenwalk"><img src="/lib/exe/fetch.php/sidbar/banner-zenwalk-185x55.jpg" class="media" title="ZenWalk" alt="ZenWalk" /></a><br/>
+
+<a href="/doku.php/lmde/linuxmint_debian_lmde" class="media" title="lmde:linuxmint_debian_lmde"><img src="/lib/exe/fetch.php/sidbar/banner-lmde-185x55.jpg" class="media" title="LinuxMint Debian Edition" alt="LinuxMint Debian Edition" /></a><br/>
+
+<a href="/doku.php/deb/primtux" class="media" title="deb:primtux"><img src="/lib/exe/fetch.php/sidbar/banner-primtux-185x55.jpg" class="media" title="PrimTux" alt="PrimTux" /></a><br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ils nous font confiance&quot;,&quot;hid&quot;:&quot;ils_nous_font_confiance&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;463-1006&quot;} -->
+<h1 class="sectionedit4" id="sites_amis">Sites amis</h1>
+<div class="level1">
+
+<p>
+<a href="http://www.alionet.org/" class="media" title="http://www.alionet.org/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-alionet-185x55.jpg" class="media" title="Alionet" alt="Alionet" /></a><br/>
+
+<a href="http://www.linuxfacile.net/" class="media" title="http://www.linuxfacile.net/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-linuxfacile-185x55.jpg" class="media" title="Linux Facile" alt="Linux Facile" /></a><br/>
+
+<a href="http://www.linuxidentity.com" class="media" title="http://www.linuxidentity.com" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-linuxidentity-185x55.jpg" class="media" title="Linux Identity" alt="Linux Identity" /></a><br/>
+
+<a href="http://www.mageialinux-online.org/" class="media" title="http://www.mageialinux-online.org/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner_mageia-2013-dark-185x55.jpg" class="media" alt="" /></a><br/>
+
+<a href="http://www.playonlinux.com/" class="media" title="http://www.playonlinux.com/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-playonlinux-185x55.jpg" class="media" title="PlayOnLinux" alt="PlayOnLinux" /></a><br/>
+
+<a href="http://www.quebecos.com/" class="media" title="http://www.quebecos.com/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-quebecos-185x55.jpg" class="media" title="QuebecOs" alt="QuebecOs" /></a><br/>
+
+<a href="http://terranux.net/" class="media" title="http://terranux.net/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-terranux-185x55.jpg" class="media" title="Terranux" alt="Terranux" /></a><br/>
+
+<a href="https://debian-facile.org/" class="media" title="https://debian-facile.org/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/debian-facile.png" class="media" title="Debian-Facile" alt="Debian-Facile" /></a><br/>
+
+<a href="http://www.parrain-linux.com/" class="media" title="http://www.parrain-linux.com/" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/banner-parrainlinux-185x55.jpg" class="media" title="Parrain-Linux" alt="Parrain-Linux" /></a><br/>
+
+<a href="https://wiki.devosi.org/doku.php" class="media" title="https://wiki.devosi.org/doku.php" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/devosi_ban185.png" class="media" title="Devosi" alt="Devosi" /></a><br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Sites amis&quot;,&quot;hid&quot;:&quot;sites_amis&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1007-1862&quot;} -->
+<h1 class="sectionedit5" id="gull_lug">Gull &amp; LUG</h1>
+<div class="level1">
+
+<p>
+<a href="http://www.cenabumix.org/" class="media" title="http://www.cenabumix.org/" rel="nofollow"><img src="/lib/exe/fetch.php/banniere_cenabumix.png" class="media" title="Cenabumix" alt="Cenabumix" /></a><br/>
+
+<a href="http://interlug.apinc.org/ListeDesGULs" class="media" title="http://interlug.apinc.org/ListeDesGULs" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/interlug_titre.png" class="media" title="Interlug" alt="Interlug" /></a><br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Gull &amp; LUG&quot;,&quot;hid&quot;:&quot;gull_lug&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1863-2042&quot;} -->
+<h1 class="sectionedit6" id="blogs_amis">Blogs amis</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"><a href="http://www.cyrille-borne.com" class="urlextern" title="http://www.cyrille-borne.com" rel="nofollow">Le Blog de Cyrille BORNE</a></div>
+</li>
+<li class="level1"><div class="li"><a href="http://www.planet-libre.org/" class="urlextern" title="http://www.planet-libre.org/" rel="nofollow">Le Planet Libre</a></div>
+</li>
+<li class="level1"><div class="li"><a href="https://passiongnulinux.tuxfamily.org/" class="urlextern" title="https://passiongnulinux.tuxfamily.org/" rel="nofollow">Passion GNU/Linux</a></div>
+</li>
+<li class="level1"><div class="li"><a href="http://www.la-vache-libre.org" class="urlextern" title="http://www.la-vache-libre.org" rel="nofollow">La Vache Libre</a></div>
+</li>
+<li class="level1"><div class="li"><a href="http://andre-ani.fr" class="urlextern" title="http://andre-ani.fr" rel="nofollow">Le Blog de ANDRE Ani</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Blogs amis&quot;,&quot;hid&quot;:&quot;blogs_amis&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;2043-2345&quot;} -->
+<h1 class="sectionedit7" id="liens_externes">Liens externes</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"><a href="/doku.php/sites_linux_francophones" class="wikilink1" title="sites_linux_francophones">Sites GNU-Linux francophone</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/sites_bsd" class="wikilink1" title="sites_bsd">Sites BSD</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/les_jeux_sous_gnu-linux" class="wikilink1" title="les_jeux_sous_gnu-linux">Les jeux sous GNU-Linux</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Liens externes&quot;,&quot;hid&quot;:&quot;liens_externes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;2346-2485&quot;} -->
+<h1 class="sectionedit8" id="a_propos">A propos</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"><a href="/doku.php/sidbar/l_equipe" class="wikilink1" title="sidbar:l_equipe">L&#039;équipe</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/sidbar/licence_du_site" class="wikilink1" title="sidbar:licence_du_site">Licence du site</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/sidbar/presentation_de_linuxpedia" class="wikilink1" title="sidbar:presentation_de_linuxpedia">Présentation de Linuxpédia</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/sidbar/logo_et_goodies" class="wikilink1" title="sidbar:logo_et_goodies">Logo et Goodies</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/sidbar/articles_de_presse" class="wikilink1" title="sidbar:articles_de_presse">LinuxPédia dans la presse</a></div>
+</li>
+<li class="level1"><div class="li"><a href="/doku.php/wiki/statistiques" class="wikilink1" title="wiki:statistiques">Statistiques</a></div>
+</li>
+<li class="level1"><div class="li">Flux RSS<a href="http://www.linuxpedia.fr/feed.php" class="media" title="http://www.linuxpedia.fr/feed.php" rel="nofollow"><img src="/lib/exe/fetch.php/sidbar/rss.png" class="media" alt="" /></a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;A propos&quot;,&quot;hid&quot;:&quot;a_propos&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;2486-2788&quot;} -->
+<h1 class="sectionedit9" id="faq_et_lexique">Faq et Lexique</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"> <a href="/doku.php/faq" class="wikilink1" title="faq">Questions/réponses</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php/lexique" class="wikilink1" title="lexique">Lexique</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Faq et Lexique&quot;,&quot;hid&quot;:&quot;faq_et_lexique&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:9,&quot;range&quot;:&quot;2789-&quot;} -->                                            </div></div>
+                </div></div><!-- /aside -->
+            
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+                
+                <div class="pageId"><span>commande:echo</span></div>
+
+                <div class="page group">
+                                                            <!-- wikipage start -->
+                    <!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table des matières</h3>
+<div>
+
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#la_commande_echo">La commande echo</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#utilisation_basique">Utilisation basique</a></div></li>
+<li class="level3"><div class="li"><a href="#quelques_utilisations_pratiques">Quelques utilisations pratiques</a></div></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h2 class="sectionedit1" id="la_commande_echo">La commande echo</h2>
+<div class="level2">
+
+<p>
+<a href="/lib/exe/detail.php/wiki/travaux-article.png?id=commande%3Aecho" class="media" title="wiki:travaux-article.png"><img src="/lib/exe/fetch.php/wiki/travaux-article.png" class="media" alt="" /></a>
+</p>
+<div class="wrap_info plugin_wrap">
+<p>
+Un signe $ précède les commandes qui ne nécessitent pas de droits administrateur ; un signe # précède celles qui nécessitent des droits administrateur (ces signes ne font PAS partie des commandes). Les lignes qui ne commencent pas par un signe $ ou # correspondent au résultat de la commande précédente.<br/>
+
+Les touches utilisées sont indiquées entre crochets, exemple <strong>[ctrl]</strong> pour la touche “contrôle”
+</p>
+</div><div class="wrap_tip plugin_wrap">
+<p>
+Comme de nombreuses commandes basiques, echo peut venir de plusieurs paquets. Elle peut par exemple être incluse dans votre shell (bash par exemple), ou bien venir d&#039;un paquet extérieur (core-utils par exemple), mais grosso modo, elle aura le même comportement dans une utilisation basique.
+</p>
+</div>
+</div>
+
+<h3 class="sectionedit6" id="utilisation_basique">Utilisation basique</h3>
+<div class="level3">
+
+<p>
+La commande <strong>echo</strong> permet simplement d&#039;afficher une ligne. Son utilisation est plutôt simple :
+</p>
+<pre class="code">$ echo &quot;Ma jolie phrase est belle.&quot;</pre>
+
+<p>
+Ceci aura pour conséquence d&#039;afficher sur votre console “Ma jolie phrase est belle.”.
+</p>
+
+<p>
+Vous pouvez utiliser les guillemets pour contrôler quelque peu le résultat de cette commande :
+</p>
+<ul>
+<li class="level1"><div class="li"> Avec un guillemet simple de chaque côté du texte, rien ne sera modifié ou interprété par la commande echo :</div>
+</li>
+</ul>
+<pre class="code">$ echo &#039;ca va ? oui !&#039;
+ca va ? oui !</pre>
+<ul>
+<li class="level1"><div class="li"> Avec un guillemet double de chaque côté du texte, le texte sera interprété par la commande echo ou par votre shell, voici ce que j&#039;obtiens (la commande n&#039;arrive même pas à se lancer correctement) :</div>
+</li>
+</ul>
+<pre class="code">$ echo &quot;ca va ? oui !&quot;
+bash: !&quot;: event not found</pre>
+<ul>
+<li class="level1"><div class="li"> Notez que vous pouvez aussi utiliser la commande sans guillemets, mais d&#039;autres interprétations pourront être effectuées (je rajoute par exemple le caractère <strong>*</strong> à mon texte, le contenu de mon répertoire sera affiché :</div>
+</li>
+</ul>
+<pre class="code">$ echo ca va ? * oui !
+ca va ? Desktop Documents fichier1 fichier2 fichier3 oui !</pre>
+
+</div>
+
+<h3 class="sectionedit7" id="quelques_utilisations_pratiques">Quelques utilisations pratiques</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> Pour écrire à la fin d&#039;un fichier sans en écraser le contenu, on utilise les signes <strong>&gt;&gt;</strong> : </div>
+</li>
+</ul>
+<pre class="code">$ echo &quot;Ma jolie phrase est belle.&quot; &gt;&gt; monfichier</pre>
+<ul>
+<li class="level1"><div class="li"> Pour écraser un fichier, en effaçant tout son contenu, on utilise le signe <strong>&gt;</strong> :</div>
+</li>
+</ul>
+<pre class="code">$ echo &quot;Ma jolie phrase est belle.&quot; &gt; monfichier</pre>
+<ul>
+<li class="level1"><div class="li"> Si vous utilisez “sudo” pour obtenir les droits root (comme sur <a href="/doku.php/ubuntu/ubuntu" class="wikilink1" title="ubuntu:ubuntu">ubuntu</a> par exemple), et que vous vouliez utiliser “echo” pour écrire dans un fichier qui appartient à root, vous devrez ruser car le “sudo” ne survivra pas à la redirection. Ça sera plus clair avec un exemple :</div>
+</li>
+</ul>
+
+<p>
+<em class="u"><strong>Ne fonctionnera PAS</strong></em> :<br/>
+
+</p>
+<pre class="code">$ sudo echo &#039;www.nouveau_dépôt&#039; &gt;&gt; /etc/apt/sources.list</pre>
+
+<p>
+Vous obtiendrez un refus avec “bash: /etc/apt/sources.list: Permission non accordée” comme motif. Pour que ça fonctionne il faut utiliser un autre type de redirection, par exemple avec la commande “<strong>tee</strong>” qui sert justement à ça.<br/>
+
+</p>
+
+<p>
+<em class="u"><strong>Vous pouvez utiliser</strong></em> :<br/>
+
+</p>
+<pre class="code">$ echo &#039;www.nouveau_dépôt&#039; | sudo tee -a /etc/apt/sources.list</pre>
+
+<p>
+<img src="/lib/images/smileys/icon_exclaim.gif" class="icon" alt=":!:" /> L&#039;option “<strong>-a</strong>” indique à “tee” d&#039;ajouter la ligne en fin de fichier, sinon &lt;color red&gt;le comportement par défaut de “tee” est de remplacer le fichier cible&lt;/color&gt;. Ne pas l&#039;oublier !<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Pour écrire plus d&#039;une ligne avec “echo”, vous pouvez utiliser un saut de ligne, noté “<strong>\n</strong>”. Pour indiquer à “echo” que ce symbole doit être interprété comme un saut de ligne, il faut utiliser l&#039;option “<strong>-e</strong>” :<br/>
+</div>
+</li>
+</ul>
+<pre class="code">$ echo -e &#039;#ceci est un commentaire \nma deuxième ligne&#039; &gt;&gt; /home/tux/test.txt</pre>
+
+<p>
+Vous obtiendrez dans le fichier “/home/tux/test.txt” le résultat suivant:<br/>
+
+</p>
+<pre class="file">#ceci est un commentaire
+ma deuxième ligne</pre>
+
+<p>
+Pratique pour ajouter une ligne d&#039;option dans un fichier de configuration, et un commentaire explicatif en même temps.
+</p>
+
+</div>
+
+                    <!-- wikipage stop -->
+                                    </div>
+
+                <div class="docInfo"><bdi>commande/echo.txt</bdi> · Dernière modification: 2018/11/17 13:52 (modification externe)</div>
+
+                            </div></div><!-- /content -->
+
+            <hr class="a11y" />
+
+            <!-- PAGE ACTIONS -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Outils de la page</h3>
+                <div class="tools">
+                    <ul>
+                        <li class="source"><a href="/doku.php/commande/echo?do=edit" title="Afficher le texte source [v]" rel="nofollow" accesskey="v"><span>Afficher le texte source</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m.12 13.5l3.74 3.74 1.42-1.41-2.33-2.33 2.33-2.33-1.42-1.41-3.74 3.74m11.16 0l-3.74-3.74-1.42 1.41 2.33 2.33-2.33 2.33 1.42 1.41 3.74-3.74z"/></svg></a></li><li class="revs"><a href="/doku.php/commande/echo?do=revisions" title="Anciennes révisions [o]" rel="nofollow" accesskey="o"><span>Anciennes révisions</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11 7v5.11l4.71 2.79.79-1.28-4-2.37V7m0-5C8.97 2 5.91 3.92 4.27 6.77L2 4.5V11h6.5L5.75 8.25C6.96 5.73 9.5 4 12.5 4a7.5 7.5 0 0 1 7.5 7.5 7.5 7.5 0 0 1-7.5 7.5c-3.27 0-6.03-2.09-7.06-5h-2.1c1.1 4.03 4.77 7 9.16 7 5.24 0 9.5-4.25 9.5-9.5A9.5 9.5 0 0 0 12.5 2z"/></svg></a></li><li class="backlink"><a href="/doku.php/commande/echo?do=backlink" title="Liens de retour" rel="nofollow"><span>Liens de retour</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.982 2.982 0 0 0 0-4.24 2.982 2.982 0 0 0-4.24 0l-3.53 3.53a2.982 2.982 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.982 2.982 0 0 0 0 4.24 2.982 2.982 0 0 0 4.24 0l3.53-3.53a2.982 2.982 0 0 0 0-4.24.973.973 0 0 1 0-1.42z"/></svg></a></li><li class="top"><a href="#dokuwiki__top" title="Haut de page [t]" rel="nofollow" accesskey="t"><span>Haut de page</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg></a></li>                    </ul>
+                </div>
+            </div>
+        </div><!-- /wrapper -->
+
+        
+<!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+    <div class="license">Sauf mention contraire, le contenu de ce wiki est placé sous les termes de la licence suivante : <bdi><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" class="urlextern">CC Attribution-Share Alike 4.0 International</a></bdi></div>
+    <div class="buttons">
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img src="/lib/images/license/button/cc-by-sa.png" alt="CC Attribution-Share Alike 4.0 International" /></a>        <a href="https://www.dokuwiki.org/donate" title="Donate" ><img
+            src="/lib/tpl/dokuwiki/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+        <a href="https://php.net" title="Powered by PHP" ><img
+            src="/lib/tpl/dokuwiki/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+        <a href="//validator.w3.org/check/referer" title="Valid HTML5" ><img
+            src="/lib/tpl/dokuwiki/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+        <a href="//jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" ><img
+            src="/lib/tpl/dokuwiki/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+        <a href="https://dokuwiki.org/" title="Driven by DokuWiki" ><img
+            src="/lib/tpl/dokuwiki/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+    </div>
+</div></div><!-- /footer -->
+
+    </div></div><!-- /site -->
+
+    <div class="no"><img src="/lib/exe/indexer.php?id=commande%3Aecho&amp;1574634629" width="2" height="1" alt="" /></div>
+    <div id="screen__mode" class="no"></div></body>
+</html>
